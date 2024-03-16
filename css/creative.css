@@ -11,6 +11,21 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+#mentor-text {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 60px;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-left: -4px;
+}
+.mentorship > h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Montserrat, sans-serif;
+}
 hr {
   border-color: #DDA165;
   border-width: 3px;
@@ -36,6 +51,12 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.mentorship-text > p{
+  /*font-family: Literata;*/
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 p {
   font-size: 16px;
@@ -146,6 +167,16 @@ aside {
     color: #DDA165;
   }
 }
+.laptop{
+   background-image: url('../img/header.jpg')
+ }
+.mountain{
+  background-image: url('../img/mountain_new.jpg')
+}
+#mentorbullets{
+  padding-left: 10px;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -155,10 +186,11 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  /*background-image: url('../img/header.jpg');*/
   text-align: center;
   color: white;
 }
+
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -522,6 +554,9 @@ footer {
   background: #0b7cff;
 }
 /*modal*/
+.mentorship li{
+  color: black;
+}
 .portfolio-modal p,
 li {
   color: whitesmoke;
