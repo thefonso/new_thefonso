@@ -1,6 +1,6 @@
 {
   "routes": [{
-    "src": "/mentorship.html",
-    "dest": "/new-thefonso.vercel.app/mentorship.html"
+    "src": "/*",
+    "dest": "/"
   }]
 }
